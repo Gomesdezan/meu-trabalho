@@ -10,7 +10,7 @@ WORKDIR /app
 # 3. Copiamos apenas os arquivos de dependência primeiro (para aproveitar o cache do Docker)
 COPY package.json package-lock.json ./
 
-# 4. Instalamos as dependências
+# 4. Instalamos as dependências a fazer
 RUN npm install
 
 # 5. Copiamos o resto do código da nossa aplicação
