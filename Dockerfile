@@ -2,7 +2,7 @@
 # ESTÁGIO 1: Construção (A Cozinha)
 # ==========================================
 # 1. Usamos uma imagem pesada do Node.js para compilar o projeto
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # 2. Definimos a pasta de trabalho dentro do container
 WORKDIR /app
