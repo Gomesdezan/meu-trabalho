@@ -1,4 +1,4 @@
-import { giState } from "react";
+import { useState } from "react";
 import Buttons from "./components/Buttons";
 
 export default function App() {
